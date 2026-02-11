@@ -2940,6 +2940,448 @@ const fuLianConfig: CharacterCGConfig = {
   },
 };
 
+// 黑崎晴雯的CG配置
+const heiQiQingWenConfig: CharacterCGConfig = {
+  characterName: '黑崎晴雯',
+  male: {
+    defeat: [
+      {
+        id: 'heiqi_asmr_airplane_cup_milking_male',
+        name: '黑崎晴雯-AMSR飞机杯榨取事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会给你套上飞机杯榨取精液，同时用龙尾插入后庭并舔舐你的耳道。',
+        images: ['黑崎晴雯-AMSR飞机杯榨取事件-1.png', '黑崎晴雯-AMSR飞机杯榨取事件-2.png', '黑崎晴雯-AMSR飞机杯榨取事件-3.png'],
+      },
+      {
+        id: 'heiqi_thread_edge_milking_male',
+        name: '黑崎晴雯-丝线寸止榨精事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会用丝线缠绕肉棒反复寸止榨精，让你只能在乞求中承受刺激。',
+        images: ['黑崎晴雯-丝线寸止榨精事件-1.png', '黑崎晴雯-丝线寸止榨精事件-2.png', '黑崎晴雯-丝线寸止榨精事件-3.png'],
+      },
+      {
+        id: 'heiqi_night_raid_milking_male',
+        name: '黑崎晴雯-夜袭榨精事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会在夜里突袭你的宿舍并榨取你的精液。',
+        images: ['黑崎晴雯-夜袭榨精事件-1.png', '黑崎晴雯-夜袭榨精事件-2.png'],
+      },
+      {
+        id: 'heiqi_tail_urethra_invasion_male',
+        name: '黑崎晴雯-尾交尿道侵犯事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会用尾巴缠绕并抽撸你的肉棒，同时以尾尖侵犯你的尿道。',
+        images: ['黑崎晴雯-尾交尿道侵犯事件-1.png', '黑崎晴雯-尾交尿道侵犯事件-2.png', '黑崎晴雯-尾交尿道侵犯事件-3.png'],
+      },
+      {
+        id: 'heiqi_humiliation_milking_male',
+        name: '黑崎晴雯-羞辱榨取事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会一边骑乘榨精一边踩住你的脸，对你进行言语羞辱。',
+        images: ['黑崎晴雯-羞辱榨取事件-1.png'],
+      },
+      {
+        id: 'heiqi_footjob_meatus_play_male',
+        name: '黑崎晴雯-足交马眼玩弄事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会用黑色连裤袜玉足为你足交，并进一步玩弄你的尿道口。',
+        images: ['黑崎晴雯-足交马眼玩弄事件-1.png', '黑崎晴雯-足交马眼玩弄事件-2.png'],
+      },
+      {
+        id: 'heiqi_kick_crotch_male',
+        name: '黑崎晴雯-踢牛子事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会直接踢击你的胯下并嘲讽你的无力反抗。',
+        images: ['黑崎晴雯-踢牛子事件-1.png'],
+      },
+      {
+        id: 'heiqi_reverse_rape_male',
+        name: '黑崎晴雯-逆强奸事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你扑倒压制，以强势体位榨取你的精液并持续嘲弄你。',
+        images: ['黑崎晴雯-逆强奸事件1.png', '黑崎晴雯-逆强奸事件2.png'],
+      },
+      {
+        id: 'heiqi_shoebottom_footjob_male',
+        name: '黑崎晴雯-鞋底足交事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会直接以鞋底压迫你的肉棒进行足交惩罚。',
+        images: ['黑崎晴雯-鞋底足交事件-1.png'],
+      },
+      {
+        id: 'heiqi_milk_feeding_male',
+        name: '黑崎晴雯-喂奶事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你扑倒并强制喂奶。',
+        images: ['黑崎晴雯-喂奶事件-1.png'],
+      },
+      {
+        id: 'heiqi_dragon_egg_vassal_male',
+        name: '黑崎晴雯-眷属事件',
+        description: '你被黑崎晴雯击败，作为惩罚你的身体会被她重构，化作正在孵化中的龙蛋。',
+        images: ['黑崎晴雯-眷属事件-1.png', '黑崎晴雯-眷属事件-2.png'],
+      },
+    ],
+    victory: [
+      {
+        id: 'heiqi_victory_male',
+        name: '黑崎晴雯-战胜事件',
+        description: '你战胜了黑崎晴雯，作为奖励你可以尽情支配她并完成一次彻底的征服。',
+        images: ['黑崎晴雯-战胜事件-1.png', '黑崎晴雯-战胜事件-2.png', '黑崎晴雯-战胜事件-3.png'],
+      },
+      {
+        id: 'heiqi_face_sit_victory_male',
+        name: '黑崎晴雯-坐脸战胜事件',
+        description: '你战胜了黑崎晴雯，作为奖励她会娇羞地坐在你的脸上满足你的嗅觉与亲密欲望。',
+        images: ['黑崎晴雯-坐脸战胜事件-1.png', '黑崎晴雯-坐脸战胜事件-2.png'],
+      },
+    ],
+  },
+  female: {
+    defeat: [
+      {
+        id: 'heiqi_asmr_tail_invasion_female',
+        name: '黑崎晴雯-ASMR龙尾侵犯事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你束缚并以龙尾、假阳具与耳道挑逗进行多重侵犯。',
+        images: ['黑崎晴雯-ASMR龙尾侵犯事件-1.png', '黑崎晴雯-ASMR龙尾侵犯事件-2.png'],
+      },
+      {
+        id: 'heiqi_domineering_tribbing_female',
+        name: '黑崎晴雯-霸道磨豆腐事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你压在身下进行强势磨豆腐调教。',
+        images: ['黑崎晴雯-霸道磨豆腐事件-1.png', '黑崎晴雯-霸道磨豆腐事件-2.png', '黑崎晴雯-霸道磨豆腐事件-3.png'],
+      },
+      {
+        id: 'heiqi_domineering_kiss_female',
+        name: '黑崎晴雯-霸道亲吻事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会以强硬姿态深吻你并进行长时间唾液交换。',
+        images: ['黑崎晴雯-霸道亲吻事件-1.png', '黑崎晴雯-霸道亲吻事件-2.png', '黑崎晴雯-霸道亲吻事件-3.png'],
+      },
+      {
+        id: 'heiqi_super_fingering_female',
+        name: '黑崎晴雯-超级爆扣事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你抱起强势玩弄私处，令你在高潮中失去思考。',
+        images: ['黑崎晴雯-超级爆扣事件-1.png'],
+      },
+      {
+        id: 'heiqi_obedience_training_female',
+        name: '黑崎晴雯-服从性调教事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会在亲吻与挑逗中持续摩擦你的私处，迫使你服从。',
+        images: ['黑崎晴雯-服从性调教事件-1.png'],
+      },
+      {
+        id: 'heiqi_bondage_training_female',
+        name: '黑崎晴雯-拘束调教事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你拘束并戴上口球，进行支配式调教。',
+        images: ['黑崎晴雯-拘束调教事件-1.png', '黑崎晴雯-拘束调教事件-2.png'],
+      },
+      {
+        id: 'heiqi_milk_feeding_female',
+        name: '黑崎晴雯-喂奶事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你扑倒并强制喂奶。',
+        images: ['黑崎晴雯-喂奶事件-1.png'],
+      },
+      {
+        id: 'heiqi_dragon_egg_vassal_female',
+        name: '黑崎晴雯-眷属事件',
+        description: '你被黑崎晴雯击败，作为惩罚你的身体会被重构并转化为龙族眷属形态。',
+        images: ['黑崎晴雯-眷属事件-1.png', '黑崎晴雯-眷属事件-2.png'],
+      },
+      {
+        id: 'heiqi_oral_finish_female',
+        name: '黑崎晴雯-口爆事件',
+        description: '你被黑崎晴雯击败，作为惩罚你会被强制口侍并承受她高潮后的失控喷发。',
+        images: ['黑崎晴雯-口爆事件-1.png'],
+      },
+      {
+        id: 'heiqi_beads_tug_of_war_female',
+        name: '黑崎晴雯-拉珠拔河事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会与你进行拉珠拔河式的羞辱对抗。',
+        images: ['黑崎晴雯-拉珠拔河事件-1.png', '黑崎晴雯-拉珠拔河事件-2.png'],
+      },
+      {
+        id: 'heiqi_mount_fingering_female',
+        name: '黑崎晴雯-上位爆扣事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会将你压在身下从上位强势爆扣至连续高潮。',
+        images: ['黑崎晴雯-上位爆扣事件-1.png', '黑崎晴雯-上位爆扣事件-2.png', '黑崎晴雯-上位爆扣事件-3.png'],
+      },
+      {
+        id: 'heiqi_double_dildo_invasion_female',
+        name: '黑崎晴雯-双头龙侵犯事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会使用双头龙假阳具对你进行深入侵犯。',
+        images: ['黑崎晴雯-双头龙侵犯事件-1.png', '黑崎晴雯-双头龙侵犯事件-2.png'],
+      },
+      {
+        id: 'heiqi_smell_foot_tribbing_female',
+        name: '黑崎晴雯-闻脚磨豆腐事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会一边与你磨豆腐一边将她的连裤袜玉足塞入口中进行气味羞辱。',
+        images: ['黑崎晴雯-闻脚磨豆腐事件-1.png'],
+      },
+      {
+        id: 'heiqi_kiss_foot_tribbing_female',
+        name: '黑崎晴雯-吻脚磨豆腐事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会以磨豆腐姿态调教你并亲吻你的足部。',
+        images: ['黑崎晴雯-吻脚磨豆腐事件-1.png'],
+      },
+      {
+        id: 'heiqi_breast_groping_female',
+        name: '黑崎晴雯-袭胸捏捏事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会揉捏你的胸部与乳头进行快感支配。',
+        images: ['黑崎晴雯-袭胸捏捏事件-1.png', '黑崎晴雯-袭胸捏捏事件-2.png'],
+      },
+      {
+        id: 'heiqi_dog_training_female',
+        name: '黑崎晴雯-训狗调教事件',
+        description: '你被黑崎晴雯击败，作为惩罚她会给你戴上口球和眼罩，把你当作犬类进行骑乘与抽打。',
+        images: ['黑崎晴雯-训狗调教事件-1.png', '黑崎晴雯-训狗调教事件-2.png', '黑崎晴雯-训狗调教事件-3.png'],
+      },
+    ],
+    victory: [
+      {
+        id: 'heiqi_oral_service_victory_female',
+        name: '黑崎晴雯-口侍战胜事件',
+        description: '你战胜了黑崎晴雯，作为奖励她会主动为你口侍并温柔侍奉。',
+        images: ['黑崎晴雯-口侍战胜事件-1.png'],
+      },
+      {
+        id: 'heiqi_cuddle_victory_female',
+        name: '黑崎晴雯-贴贴战胜事件',
+        description: '你战胜了黑崎晴雯，作为奖励她会以恋人般姿态贴近你并进行亲密互动。',
+        images: ['黑崎晴雯-贴贴战胜事件-1.png'],
+      },
+      {
+        id: 'heiqi_dogeza_victory_female',
+        name: '黑崎晴雯-土下座战胜事件',
+        description: '你战胜了黑崎晴雯，作为奖励她会在屈辱中向你土下座请罪。',
+        images: ['黑崎晴雯-土下座战胜事件-1.png'],
+      },
+      {
+        id: 'heiqi_training_victory_female',
+        name: '黑崎晴雯-战胜调教事件',
+        description: '你战胜了黑崎晴雯，作为奖励你可以将她束缚并进行一次支配调教。',
+        images: ['黑崎晴雯-战胜调教事件-1.png'],
+      },
+      {
+        id: 'heiqi_face_sit_victory_female',
+        name: '黑崎晴雯-坐脸战胜事件',
+        description: '你战胜了黑崎晴雯，作为奖励她会娇羞地坐在你的脸上满足你的癖好。',
+        images: ['黑崎晴雯-坐脸战胜事件-1.png', '黑崎晴雯-坐脸战胜事件-2.png'],
+      },
+    ],
+  },
+};
+
+// 明日香的CG配置
+const mingRiXiangConfig: CharacterCGConfig = {
+  characterName: '明日香',
+  male: {
+    defeat: [
+      {
+        id: 'asuka_face_step_masturbation_male',
+        name: '明日香-踩脸撸管事件',
+        description: '你被明日香击败，作为惩罚她会让你趴下并踩住你的脸，同时命令你自行撸管提交精液样本。',
+        images: ['明日香-踩脸撸管事件-1.png', '明日香-踩脸撸管事件-2.png'],
+      },
+      {
+        id: 'asuka_manual_cup_milking_male',
+        name: '明日香-飞机杯手动榨精事件',
+        description: '你被明日香击败，作为惩罚她会以电流刺激飞机杯配合手动套弄，榨取你的精液样本。',
+        images: ['明日香-飞机杯手动榨精事件-1.png'],
+      },
+      {
+        id: 'asuka_anal_development_male',
+        name: '明日香-后穴开发榨精事件',
+        description: '你被明日香击败，作为惩罚她会一边开发你的后穴一边以手与胸部协同榨精。',
+        images: ['明日香-后穴开发榨精事件-1.png', '明日香-后穴开发榨精事件-2.png', '明日香-后穴开发榨精事件-3.png'],
+      },
+      {
+        id: 'asuka_cowgirl_intercourse_male',
+        name: '明日香-女上位性交事件',
+        description: '你被明日香击败，作为惩罚你会被固定在设备椅上并被喂食特制媚药后接受她的女上位榨取。',
+        images: ['明日香-女上位性交事件-1.png', '明日香-女上位性交事件-2.png'],
+      },
+      {
+        id: 'asuka_lube_handjob_male',
+        name: '明日香-润滑液手交事件',
+        description: '你被明日香击败，作为惩罚她会使用特调润滑液大幅提升敏感度并进行手交榨精。',
+        images: ['明日香-润滑液手交事件-1.png', '明日香-润滑液手交事件-2.png'],
+      },
+      {
+        id: 'asuka_triple_vibe_anal_male',
+        name: '明日香-三重跳蛋假阳具后穴榨精事件',
+        description: '你被明日香击败，作为惩罚她会安装多重跳蛋并穿戴可伸缩阳具刺激你的后穴完成榨精。',
+        images: ['明日香-三重跳蛋假阳具后穴榨精事件-1.png', '明日香-三重跳蛋假阳具后穴榨精事件-2.png', '明日香-三重跳蛋假阳具后穴榨精事件-3.png'],
+      },
+      {
+        id: 'asuka_glove_lube_handjob_male',
+        name: '明日香-手套润滑液手交事件',
+        description: '你被明日香击败，作为惩罚她会使用仿触手手套与高敏润滑液进行高强度手交实验。',
+        images: ['明日香-手套润滑液手交事件-1 .png', '明日香-手套润滑液手交事件-2.png'],
+      },
+      {
+        id: 'asuka_feetcup_edging_male',
+        name: '明日香-特制飞机杯足压迫寸止事件',
+        description: '你被明日香击败，作为惩罚她会以双足操控电流飞机杯持续寸止并抑制你射精。',
+        images: ['明日香-特制飞机杯足压迫寸止事件-1.png', '明日香-特制飞机杯足压迫寸止事件-2.png', '明日香-特制飞机杯足压迫寸止事件-3.png'],
+      },
+      {
+        id: 'asuka_feetcup_milking_male',
+        name: '明日香-特制飞机杯足压迫榨精事件',
+        description: '你被明日香击败，作为惩罚她会用双足操控特制电流飞机杯进行高强度榨精。',
+        images: ['明日香-特制飞机杯足压迫榨精事件-1.png', '明日香-特制飞机杯足压迫榨精事件-2.png'],
+      },
+      {
+        id: 'asuka_sock_footjob_male',
+        name: '明日香-原味穿袜足交事件',
+        description: '你被明日香击败，作为惩罚她会在无实验器材时直接以穿袜玉足完成足交并回收样本。',
+        images: ['明日香-原味穿袜足交事件-1.png', '明日香-原味穿袜足交事件-2.png'],
+      },
+      {
+        id: 'asuka_brainwash_master_male',
+        name: '明日香-洗脑认主事件',
+        description: '你被明日香击败，作为惩罚你会被她的试作洗脑应用重塑认知并下跪认主。',
+        images: ['明日香-洗脑认主事件-1.png', '明日香-洗脑认主事件-2.png'],
+      },
+      {
+        id: 'asuka_ar_asmr_electric_milking_rare_male',
+        name: '（稀有事件）明日香-AR设备ASMR电子榨精事件',
+        description: '你被明日香击败，作为惩罚她会启动集大成AR束缚设备与洗脑ASMR，将你的性癖重定向后完成高量榨精。',
+        images: ['明日香-AR设备ASMR电子榨精事件-1.png'],
+        probability: 0.04,
+      },
+      {
+        id: 'asuka_body_mod_milking_rare_male',
+        name: '（稀有事件）明日香-身体改造榨取事件',
+        description: '你被明日香击败，作为惩罚你的身体会被半机械化改造为精液生产工具并进行首次榨取测试。',
+        images: ['明日香-身体改造榨取事件-1.png', '明日香-身体改造榨取事件-2.png'],
+        probability: 0.04,
+      },
+    ],
+    victory: [
+      {
+        id: 'asuka_flat_chest_play_victory_male',
+        name: '明日香-贫乳玩弄事件',
+        description: '你战胜了明日香，作为奖励你可以玩弄她的贫乳胸部。',
+        images: ['明日香-贫乳玩弄事件-1.png', '明日香-贫乳玩弄事件-2.png'],
+      },
+      {
+        id: 'asuka_forced_intercourse_victory_male',
+        name: '明日香-强制性交事件',
+        description: '你战胜了明日香，作为奖励她会以服从姿态配合你进行性交。',
+        images: ['明日香-强制性交事件-1.png', '明日香-强制性交事件-2.webp'],
+      },
+      {
+        id: 'asuka_stocking_footjob_victory_male',
+        name: '明日香-强制丝袜足交事件',
+        description: '你战胜了明日香，作为奖励她会用丝袜玉足为你进行足交服侍。',
+        images: ['明日香-强制丝袜足交事件-1.png', '明日香-强制丝袜足交事件-2.png'],
+      },
+      {
+        id: 'asuka_reverse_brainwash_asmr_rare_victory_male',
+        name: '（稀有事件）明日香-反洗脑ASMR事件',
+        description: '你战胜了明日香，作为稀有奖励你可以使用她的洗脑ASMR设备反向束缚并洗脑她。',
+        images: ['明日香-反洗脑ASMR事件-1.png'],
+        probability: 0.15,
+      },
+    ],
+  },
+  female: {
+    defeat: [
+      {
+        id: 'asuka_dog_whip_gag_female',
+        name: '明日香-狗狗鞭打口球事件',
+        description: '你被明日香击败，作为惩罚她会把你当作犬类进行电击尾塞、口球与鞭打调教。',
+        images: ['明日香-狗狗鞭打口球事件-1.png', '明日香-狗狗鞭打口球事件-2.png'],
+      },
+      {
+        id: 'asuka_ar_asmr_masturbation_female',
+        name: '明日香-AR设备ASMR电子自慰事件',
+        description: '你被明日香击败，作为惩罚她会通过AR设备与ASMR洗脑诱导你主动自慰并重塑性癖。',
+        images: ['明日香-AR设备ASMR电子自慰事件-1.png', '明日香-AR设备ASMR电子自慰事件-2.png', '明日香-AR设备ASMR电子自慰事件-3.png'],
+      },
+      {
+        id: 'asuka_turtle_shell_dildo_female',
+        name: '明日香-龟甲缚阳具小穴事件',
+        description: '你被明日香击败，作为惩罚你会在龟甲缚状态下接受电击阳具插入。',
+        images: ['明日香-龟甲缚阳具小穴事件-1.png', '明日香-龟甲缚阳具小穴事件-2.png'],
+      },
+      {
+        id: 'asuka_tentacle_glove_female',
+        name: '明日香-拘束触手手套事件',
+        description: '你被明日香击败，作为惩罚你会在拘束状态下被她用触手手套测试至失控高潮。',
+        images: ['明日香-拘束触手手套事件-1.png', '明日香-拘束触手手套事件-2.png'],
+      },
+      {
+        id: 'asuka_fisting_nude_female',
+        name: '明日香-全裸拳交小穴事件',
+        description: '你被明日香击败，作为惩罚你会被迫全裸并接受拳交测试。',
+        images: ['明日香-全裸拳交小穴事件-1.png', '明日香-全裸拳交小穴事件-2.png'],
+      },
+      {
+        id: 'asuka_nude_dogeza_female',
+        name: '明日香-全裸土下座事件',
+        description: '你被明日香击败，作为惩罚你会在电击玩具刺激下维持全裸土下座接受羞辱测试。',
+        images: ['明日香-全裸土下座事件-1.png', '明日香-全裸土下座事件-2.png', '明日香-全裸土下座事件-3.png'],
+      },
+      {
+        id: 'asuka_latex_gag_restraint_female',
+        name: '明日香-全身乳胶拘束服口球束缚事件',
+        description: '你被明日香击败，作为惩罚你会被穿上全身乳胶拘束服并配戴刺激口球进行耐受实验。',
+        images: ['明日香-全身乳胶拘束服口球束缚事件-1.png', '明日香-全身乳胶拘束服口球束缚事件-2.png'],
+      },
+      {
+        id: 'asuka_double_dildo_nude_female',
+        name: '明日香-全裸双头龙插入小穴事件',
+        description: '你被明日香击败，作为惩罚她会使用特制电击双头龙对你进行连续抽插实验。',
+        images: ['明日香-全裸双头龙插入小穴事件-1.png'],
+      },
+      {
+        id: 'asuka_vibe_strapon_female',
+        name: '明日香-跳蛋束缚装阳具小穴事件',
+        description: '你被明日香击败，作为惩罚她会给你安装跳蛋并穿戴阳具持续刺激你的小穴。',
+        images: ['明日香-跳蛋束缚装阳具小穴事件-1.png', '明日香-跳蛋束缚装阳具小穴事件-2.png'],
+      },
+      {
+        id: 'asuka_collar_anal_fingering_female',
+        name: '明日香-项圈全裸指奸后穴事件',
+        description: '你被明日香击败，作为惩罚你会被套上项圈后全裸接受后穴指奸。',
+        images: ['明日香-项圈全裸指奸后穴事件-1.png', '明日香-项圈全裸指奸后穴事件-2.png'],
+      },
+      {
+        id: 'asuka_collar_vaginal_fingering_female',
+        name: '明日香-项圈全裸指奸小穴事件',
+        description: '你被明日香击败，作为惩罚你会被套上项圈后全裸接受小穴指奸。',
+        images: ['明日香-项圈全裸指奸小穴事件-1.png', '明日香-项圈全裸指奸小穴事件-2.png'],
+      },
+      {
+        id: 'asuka_brainwash_master_rare_female',
+        name: '（稀有事件）明日香-洗脑认主事件',
+        description: '你被明日香击败，作为稀有惩罚你会被她的催眠APP彻底洗脑并转化为忠诚玩具。',
+        images: ['明日香-洗脑认主事件-1.png'],
+        probability: 0.04,
+      },
+      {
+        id: 'asuka_body_mod_strapon_rare_female',
+        name: '（稀有事件）明日香-身体改造假阳具事件',
+        description: '你被明日香击败，作为稀有惩罚你的身体会被半机械化改造并安装生物质假阳具进行测试。',
+        images: ['明日香-身体改造假阳具事件-1.png', '明日香-身体改造假阳具事件-2.png'],
+        probability: 0.04,
+      },
+    ],
+    victory: [
+      {
+        id: 'asuka_flat_chest_play_victory_female',
+        name: '明日香-贫乳玩弄事件',
+        description: '你战胜了明日香，作为奖励你可以玩弄她的贫乳胸部。',
+        images: ['明日香-贫乳玩弄事件-1.png', '明日香-贫乳玩弄事件-2.png'],
+      },
+      {
+        id: 'asuka_nude_dogeza_victory_female',
+        name: '明日香-全裸土下座事件',
+        description: '你战胜了明日香，作为奖励你可以命令她全裸土下座并接受羞辱惩罚。',
+        images: ['明日香-全裸土下座事件-1.png'],
+      },
+      {
+        id: 'asuka_reverse_brainwash_asmr_rare_victory_female',
+        name: '（稀有事件）明日香-反洗脑ASMR事件',
+        description: '你战胜了明日香，作为稀有奖励你可以使用她的设备对她实施反向洗脑。',
+        images: ['明日香-反洗脑ASMR事件-1.png'],
+        probability: 0.15,
+      },
+    ],
+  },
+};
+
 // 所有角色的CG配置
 export const CG_CONFIGS: CharacterCGConfig[] = [
   xingYeGuangConfig,
@@ -2959,6 +3401,8 @@ export const CG_CONFIGS: CharacterCGConfig[] = [
   fengYinConfig,
   lingYinConfig,
   fuLianConfig,
+  heiQiQingWenConfig,
+  mingRiXiangConfig,
 ];
 
 // 根据角色名称获取CG配置
