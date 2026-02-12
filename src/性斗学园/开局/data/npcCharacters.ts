@@ -18,6 +18,7 @@ export interface NpcCharacter {
 export type NpcCategory =
   | '学生会'
   | '女权协会'
+  | '艺术社'
   | 'BF社'
   | '体育联盟'
   | '研究会'
@@ -94,6 +95,15 @@ export const NPC_CHARACTERS: NpcCharacter[] = [
     level: 60,
     category: '学生会',
     description: '拥有龙魔女血统的风纪委员',
+  },
+  {
+    id: 'xiangmu_tianyin',
+    name: '响木天音',
+    dbKey: '响木天音',
+    skillKey: '响木天音',
+    level: 90,
+    category: '学生会',
+    description: '学生会干事，享乐至上的堕落魔法少女',
   },
 
   // ==================== 女权协会 ====================
@@ -440,6 +450,42 @@ export const NPC_CHARACTERS: NpcCharacter[] = [
     category: '独立势力',
     description: '神社的巫女妹妹',
   },
+  {
+    id: 'jialana',
+    name: '伽拉娜',
+    dbKey: '伽拉娜',
+    skillKey: '伽拉娜',
+    level: 58,
+    category: '艺术社',
+    description: '艺术社雕塑部部长，执着于将肉体塑造成完美艺术',
+  },
+  {
+    id: 'miusi',
+    name: '缪斯',
+    dbKey: '缪斯',
+    skillKey: '缪斯',
+    level: 60,
+    category: '艺术社',
+    description: '艺术社声乐部部长，以声波与节奏支配对手感官',
+  },
+  {
+    id: 'moqi',
+    name: '墨柒',
+    dbKey: '墨柒',
+    skillKey: '墨柒',
+    level: 62,
+    category: '艺术社',
+    description: '艺术社书法部部长，以墨痕与文字进行精神污染',
+  },
+  {
+    id: 'weisiyier',
+    name: '维斯伊尔',
+    dbKey: '维斯伊尔',
+    skillKey: '维斯伊尔',
+    level: 50,
+    category: '艺术社',
+    description: '艺术社社长，高冷圣女外表下隐藏堕落欲望',
+  },
 
   // ==================== 男性自保联盟 ====================
   {
@@ -547,6 +593,15 @@ export const NPC_CHARACTERS: NpcCharacter[] = [
     level: 40,
     category: '一年级A班',
     description: '时尚靓丽的辣妹',
+  },
+  {
+    id: 'lumi',
+    name: '露美',
+    dbKey: '露美',
+    skillKey: '露美',
+    level: 42,
+    category: '艺术社',
+    description: '摄影部部长，擅长通过镜头与黑历史进行精神勒索',
   },
 
   // ==================== 一年级B班 ====================

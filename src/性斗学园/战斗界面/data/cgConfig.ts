@@ -3382,6 +3382,193 @@ const mingRiXiangConfig: CharacterCGConfig = {
   },
 };
 
+// 爱丽丝温特的CG配置
+const aiLiSiWenTeConfig: CharacterCGConfig = {
+  characterName: '爱丽丝温特',
+  male: {
+    defeat: [
+      {
+        id: 'alice_lactation_male',
+        name: '爱丽丝温特-哺乳事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会以强势而温柔的方式对你进行哺乳调教。',
+        images: [
+          '爱丽丝温特-哺乳事件-1.png',
+          '爱丽丝温特-哺乳事件-2.png',
+          '爱丽丝温特-哺乳事件-3.png',
+          '爱丽丝温特-哺乳事件-4.png',
+        ],
+      },
+      {
+        id: 'alice_urethral_bead_punishment_male',
+        name: '爱丽丝温特-马眼拉珠责罚事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会对你执行马眼拉珠责罚。',
+        images: [
+          '爱丽丝温特-马眼拉珠责罚事件-1.png',
+          '爱丽丝温特-马眼拉珠责罚事件-2.png',
+          '爱丽丝温特-马眼拉珠责罚事件-3.png',
+        ],
+      },
+      {
+        id: 'alice_reverse_rape_male',
+        name: '爱丽丝温特-逆强奸事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会对你施加彻底压制的逆强奸调教。',
+        images: [
+          '爱丽丝温特-逆强奸事件-1.png',
+          '爱丽丝温特-逆强奸事件-2.png',
+          '爱丽丝温特-逆强奸事件-3.png',
+          '爱丽丝温特-逆强奸事件-4.png',
+        ],
+      },
+      {
+        id: 'alice_paizuri_male',
+        name: '爱丽丝温特-乳交事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会用乳房对你进行持续榨取。',
+        images: [
+          '爱丽丝温特-乳交事件-1.png',
+          '爱丽丝温特-乳交事件-2.png',
+          '爱丽丝温特-乳交事件-3.png',
+          '爱丽丝温特-乳交事件-4.png',
+        ],
+      },
+      {
+        id: 'alice_milk_splash_male',
+        name: '爱丽丝温特-乳液狂飙事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会让你在失控刺激中迎来乳液狂飙。',
+        images: ['爱丽丝温特-乳液狂飙事件-1.png'],
+      },
+      {
+        id: 'alice_silk_foot_reward_male',
+        name: '爱丽丝温特-丝足“奖励”事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会以丝足“奖励”的名义对你进行支配。',
+        images: [
+          '爱丽丝温特-丝足“奖励”事件-1.png',
+          '爱丽丝温特-丝足“奖励”事件-2.png',
+          '爱丽丝温特-丝足“奖励”事件-3.png',
+        ],
+      },
+      {
+        id: 'alice_non_penetrative_grind_male',
+        name: '爱丽丝温特-素股事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会用素股反复挑逗并榨取你的理智。',
+        images: ['爱丽丝温特-素股事件-1.png', '爱丽丝温特-素股事件-2.png'],
+      },
+      {
+        id: 'alice_baby_regression_male',
+        name: '爱丽丝温特-婴儿退行事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会诱导你进入婴儿退行状态并进行调教。',
+        images: [
+          '爱丽丝温特-婴儿退行事件-1.png',
+          '爱丽丝温特-婴儿退行事件-2.png',
+          '爱丽丝温特-婴儿退行事件-3.png',
+          '爱丽丝温特-婴儿退行事件-4.png',
+        ],
+      },
+      {
+        id: 'alice_baby_punishment_male',
+        name: '爱丽丝温特-婴儿责罚事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会以母性威压方式执行婴儿责罚。',
+        images: [
+          '爱丽丝温特-婴儿责罚事件-1.png',
+          '爱丽丝温特-婴儿责罚事件-2.png',
+          '爱丽丝温特-婴儿责罚事件-3.png',
+          '爱丽丝温特-婴儿责罚事件-4.png',
+        ],
+      },
+      {
+        id: 'alice_footjob_male',
+        name: '爱丽丝温特-足交事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会用双足对你进行足交榨取。',
+        images: ['爱丽丝温特-足交事件-1.png', '爱丽丝温特-足交事件-2.png', '爱丽丝温特-足交事件-3.png', '爱丽丝温特-足交事件-4.png'],
+      },
+    ],
+    victory: [
+      {
+        id: 'alice_cao_pi_victory_male',
+        name: '爱丽丝温特-曹丕事件',
+        description: '你战胜了爱丽丝温特，作为奖励她会配合你进行曹丕事件中的特别互动。',
+        images: ['爱丽丝温特-曹丕事件-1.png', '爱丽丝温特-曹丕事件-2.png', '爱丽丝温特-曹丕事件-3.png'],
+      },
+      {
+        id: 'alice_blowjob_victory_male',
+        name: '爱丽丝温特-口交事件',
+        description: '你战胜了爱丽丝温特，作为奖励她会为你提供口交服务。',
+        images: ['爱丽丝温特-口交事件-1.png', '爱丽丝温特-口交事件-2.png', '爱丽丝温特-口交事件3.png', '爱丽丝温特-口交事件4.png'],
+      },
+    ],
+  },
+  female: {
+    defeat: [
+      {
+        id: 'alice_oral_exchange_female',
+        name: '爱丽丝-管鲍之交事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会与你进行高压的管鲍之交调教。',
+        images: ['爱丽丝-管鲍之交事件-1.png', '爱丽丝-管鲍之交事件-2.png'],
+      },
+      {
+        id: 'alice_grinding_apotheosis_female',
+        name: '爱丽丝-磨姛降世事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会用激烈磨蹭手段彻底压制你。',
+        images: ['爱丽丝-磨姛降世事件-1.png', '爱丽丝-磨姛降世事件-2.png'],
+      },
+      {
+        id: 'alice_cowplay_female',
+        name: '爱丽丝-乳牛化情趣play事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会对你实施乳牛化情趣play。',
+        images: [
+          '爱丽丝-乳牛化情趣play事件-1.png',
+          '爱丽丝-乳牛化情趣play事件-2.png',
+          '爱丽丝-乳牛化情趣play事件-3.png',
+          '爱丽丝-乳牛化情趣play事件-4.png',
+        ],
+      },
+      {
+        id: 'alice_cow_transformation_female',
+        name: '爱丽丝-乳牛化事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会对你进行乳牛化改造。',
+        images: ['爱丽丝-乳牛化事件-1.png', '爱丽丝-乳牛化事件-2.png', '爱丽丝-乳牛化事件-3.png', '爱丽丝-乳牛化事件-4.png'],
+      },
+      {
+        id: 'alice_mountain_press_female',
+        name: '爱丽丝-泰山压顶事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会以泰山压顶般的方式压制你。',
+        images: ['爱丽丝-泰山压顶事件-1.png', '爱丽丝-泰山压顶事件-2.png', '爱丽丝-泰山压顶事件-3.png', '爱丽丝-泰山压顶事件-4.png'],
+      },
+      {
+        id: 'alice_dual_dragon_female',
+        name: '爱丽丝-天地双龙事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会对你施加天地双龙式的双重刺激。',
+        images: ['爱丽丝-天地双龙事件-1.png', '爱丽丝-天地双龙事件-2.png', '爱丽丝-天地双龙事件-3.png'],
+      },
+      {
+        id: 'alice_baby_regression_female',
+        name: '爱丽丝-婴儿退行事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会诱导你进入婴儿退行状态。',
+        images: ['爱丽丝-婴儿退行事件-1.png', '爱丽丝-婴儿退行事件-2.png', '爱丽丝-婴儿退行事件-3.png'],
+      },
+      {
+        id: 'alice_multi_grind_female',
+        name: '爱丽丝-众磨蒂事件',
+        description: '你被爱丽丝温特击败，作为惩罚她会让你承受众磨蒂式的持续挑逗与压迫。',
+        images: ['爱丽丝-众磨蒂事件-1.png', '爱丽丝-众磨蒂事件-2.png', '爱丽丝-众磨蒂事件-3.png', '爱丽丝-众磨蒂事件-4.png'],
+      },
+    ],
+    victory: [
+      {
+        id: 'alice_lesbian_fluid_banquet_victory_female',
+        name: '爱丽丝-磨女的液宴事件',
+        description: '你战胜了爱丽丝温特，作为奖励你可以主导磨女的液宴。',
+        images: ['爱丽丝-磨女的液宴事件-1.png', '爱丽丝-磨女的液宴事件-2.png', '爱丽丝-磨女的液宴事件-3.png'],
+      },
+      {
+        id: 'alice_spear_like_dragon_victory_female',
+        name: '爱丽丝-枪出如龙',
+        description: '你战胜了爱丽丝温特，作为奖励你可以让她配合你进行枪出如龙式的强势互动。',
+        images: ['爱丽丝-枪出如龙-1.png', '爱丽丝-枪出如龙-2.png'],
+      },
+    ],
+  },
+};
+
 // 所有角色的CG配置
 export const CG_CONFIGS: CharacterCGConfig[] = [
   xingYeGuangConfig,
@@ -3403,6 +3590,7 @@ export const CG_CONFIGS: CharacterCGConfig[] = [
   fuLianConfig,
   heiQiQingWenConfig,
   mingRiXiangConfig,
+  aiLiSiWenTeConfig,
 ];
 
 // 根据角色名称获取CG配置
