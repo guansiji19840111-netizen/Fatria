@@ -282,6 +282,9 @@ const currentTalentId = computed(() => {
 
 // 计算商店折扣
 function getItemDiscount(item: any): number {
+  // 固定促销价（salePrice）视为有折扣
+  if (item.salePrice != null) return 1; // 返回 >0 即可触发划线显示
+
   const talentId = currentTalentId.value;
   if (!talentId) return 0;
 
@@ -310,6 +313,8 @@ function getItemDiscount(item: any): number {
 
 // 获取折扣后价格
 function getDiscountedPrice(item: any): number {
+  // 固定促销价优先
+  if (item.salePrice != null) return item.salePrice;
   const discount = getItemDiscount(item);
   return Math.floor((item.price * (100 - discount)) / 100);
 }
@@ -1563,6 +1568,140 @@ const allEquipments = [
     attrFocus: '幸运',
     description: '幸运之风的圣袍',
     bonuses: { 幸运加成: 46, 闪避率加成: 23, 魅力加成: 16 },
+  },
+
+  // S级装备 - 春节限定·女（幸运系）
+  {
+    name: '瑞雪霓裳·春华',
+    slot: '主装备',
+    icon: 'fas fa-snowflake',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '幸运',
+    description: '春节限定——以瑞雪为纱、梅花为饰的华丽霓裳，传闻穿戴者可得新年福运加身',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '红鸾折扇',
+    slot: '副装备',
+    icon: 'fas fa-fan',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '幸运',
+    description: '春节限定——绘有鸾凤和鸣图案的朱红折扇，扇风可引来桃花运',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '金玉如意玲珑璧',
+    slot: '饰品',
+    icon: 'fas fa-yin-yang',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '幸运',
+    description: '春节限定——金镶玉如意花纹的玲珑玉璧，佩戴可化险为夷',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '桃花结红绳',
+    slot: '饰品',
+    icon: 'fas fa-heart',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '幸运',
+    description: '春节限定——以桃木珠与红绳编织的手链，据说能牵动桃花姻缘',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '鞭炮缠腰带',
+    slot: '特殊装备',
+    icon: 'fas fa-fire',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '幸运',
+    description: '春节限定——以迸溅焰火为灵感的腰饰，驱邪避凶、好运连连',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+
+  // S级装备 - 春节限定·男（幸运系）
+  {
+    name: '麒麟战袍·岁寒',
+    slot: '主装备',
+    icon: 'fas fa-dragon',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '男',
+    attrFocus: '幸运',
+    description: '春节限定——织入麒麟瑞兽纹的墨色战袍，据传可趋吉避凶',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '爆竹焚天笏',
+    slot: '副装备',
+    icon: 'fas fa-wand-sparkles',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '男',
+    attrFocus: '幸运',
+    description: '春节限定——唤起爆竹烈焰的金笏，一击之间驱散秽气',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '祥龙衔珠扣',
+    slot: '饰品',
+    icon: 'fas fa-circle',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '男',
+    attrFocus: '幸运',
+    description: '春节限定——龙形衔珠腰扣，龙气护体、逢凶化吉',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '福字金锁链',
+    slot: '饰品',
+    icon: 'fas fa-lock',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '男',
+    attrFocus: '幸运',
+    description: '春节限定——"福"字浮雕的长命金锁，锁住好运、百邪不侵',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
+  },
+  {
+    name: '年兽獠牙饰环',
+    slot: '特殊装备',
+    icon: 'fas fa-paw',
+    price: 18888,
+    salePrice: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '男',
+    attrFocus: '幸运',
+    description: '春节限定——以年兽之牙磨制的臂环，威慑魔物、福运滔天',
+    bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
 
   // SS级装备 - 女性性斗力系
