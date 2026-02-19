@@ -390,7 +390,7 @@ const selectedAttr = ref('');
 const gradeFilters = ['C', 'B', 'A', 'S', 'SS'];
 const slotFilters = ['主装备', '副装备', '饰品', '特殊装备'];
 const genderFilters = ['男', '女'];
-const attrFilters = ['性斗力', '忍耐力', '魅力', '幸运'];
+const attrFilters = ['性斗力', '忍耐力', '魅力', '幸运', '特殊'];
 
 // 所有装备列表（扁平化，突出性斗主题）
 const allEquipments = [
@@ -1570,7 +1570,7 @@ const allEquipments = [
     bonuses: { 幸运加成: 46, 闪避率加成: 23, 魅力加成: 16 },
   },
 
-  // S级装备 - 春节限定·女（幸运系）
+  // S级装备 - 春节限定·女（特殊系）
   {
     name: '瑞雪霓裳·春华',
     slot: '主装备',
@@ -1580,7 +1580,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '女',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——以瑞雪为纱、梅花为饰的华丽霓裳，传闻穿戴者可得新年福运加身',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1593,7 +1593,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '女',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——绘有鸾凤和鸣图案的朱红折扇，扇风可引来桃花运',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1606,7 +1606,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '女',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——金镶玉如意花纹的玲珑玉璧，佩戴可化险为夷',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1619,7 +1619,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '女',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——以桃木珠与红绳编织的手链，据说能牵动桃花姻缘',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1632,12 +1632,12 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '女',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——以迸溅焰火为灵感的腰饰，驱邪避凶、好运连连',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
 
-  // S级装备 - 春节限定·男（幸运系）
+  // S级装备 - 春节限定·男（特殊系）
   {
     name: '麒麟战袍·岁寒',
     slot: '主装备',
@@ -1647,7 +1647,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '男',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——织入麒麟瑞兽纹的墨色战袍，据传可趋吉避凶',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1660,7 +1660,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '男',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——唤起爆竹烈焰的金笏，一击之间驱散秽气',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1673,7 +1673,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '男',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——龙形衔珠腰扣，龙气护体、逢凶化吉',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1686,7 +1686,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '男',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——"福"字浮雕的长命金锁，锁住好运、百邪不侵',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -1699,7 +1699,7 @@ const allEquipments = [
     category: 'equipment',
     grade: 'S',
     gender: '男',
-    attrFocus: '幸运',
+    attrFocus: '特殊',
     description: '春节限定——以年兽之牙磨制的臂环，威慑魔物、福运滔天',
     bonuses: { 幸运加成: 88, 魅力加成: 18, 基础性斗力成算: 8 },
   },
@@ -2199,6 +2199,104 @@ const allEquipments = [
     description: '幸运之风的神袍',
     bonuses: { 幸运加成: 72, 闪避率加成: 40, 魅力加成: 28 },
   },
+
+  // 华夏新年 & 特色装备
+  {
+    name: '财运红内裤',
+    slot: '特殊装备',
+    icon: 'fas fa-socks',
+    price: 188,
+    category: 'equipment',
+    grade: 'A',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '用本命年大红色染就的丁字裤，剥开后露出的红色布料紧贴脚心和私处，吐息间透出隐秘的红色诱惑——据说能带来好运',
+    bonuses: { 幸运加成: 10, 基础忍耐力加成: 5 },
+  },
+  {
+    name: '恭喜发财铜钱乳夹',
+    slot: '饰品',
+    icon: 'fas fa-coins',
+    price: 666,
+    category: 'equipment',
+    grade: 'A',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '铜钱形状的金属夹子严密地夺住两粒敦起的乳尖，夹子下垂的红色流苏随身体摇曳而颤动，每一步都牵动乳尖带来酢麻快感，无比色情',
+    bonuses: { 魅力加成: 12, 幸运加成: 8, 基础忍耐力加成: -5 },
+  },
+  {
+    name: '金元宝跳蛋',
+    slot: '副装备',
+    icon: 'fas fa-egg',
+    price: 888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '金元宝形状的冰凉跳蛋，浓厚的金属质感和沁入骨髓的冰凉在能够带来极致的刺激，振动模式可以让人瞒间崩溃',
+    bonuses: { 基础性斗力加成: 35, 幸运加成: 20, 基础性斗力成算: 5 },
+  },
+  {
+    name: '华夏色情僵尸服(带符咒版)',
+    slot: '主装备',
+    icon: 'fas fa-skull',
+    price: 6666,
+    category: 'equipment',
+    grade: 'SS',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '色情的僵尸装只遮住乳尖和私处的最小面积，符咒纸贴在额头散发神秘的光芒，穿戴时胸部会不断膨胀，身体逐渐变得刺骨性感——似乎有小概率恶堕变成巨乳女僵尸',
+    bonuses: { 魅力加成: 50, 基础忍耐力加成: 40, 幸运加成: -10, 基础忍耐力成算: 10 },
+  },
+  {
+    name: '色情红绳旗袍',
+    slot: '主装备',
+    icon: 'fas fa-person-dress',
+    price: 8888,
+    category: 'equipment',
+    grade: 'S',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '高开叉的红色旗袍内藏红绳绑缚，红绳从胸前穿过胡桃夹住肯豆再通过膛间绕臀结系，每一步走动红绳都会摩擦敏感点，让穿戴者既兴奋又难耐',
+    bonuses: { 基础性斗力加成: 45, 幸运加成: 25, 基础忍耐力加成: -10, 暴击率加成: 15 },
+  },
+  {
+    name: '华夏痴女萝莉仙子服',
+    slot: '主装备',
+    icon: 'fas fa-child-dress',
+    price: 12888,
+    category: 'equipment',
+    grade: 'SS',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '轻纱如翅的小仙子装，半透明的纱衣若隐若现地勾勒娇小的身体曲线，穿戴时修炼有可能增加顿悟技能，但会逐渐变得呢喝娇憎，身体缩小变成可爱的笨蛋萝莉',
+    bonuses: { 魅力加成: 60, 幸运加成: 40, 基础性斗力成算: 12, 基础忍耐力成算: -5 },
+  },
+  {
+    name: '色情肚兜',
+    slot: '特殊装备',
+    icon: 'fas fa-shield-heart',
+    price: 1666,
+    category: 'equipment',
+    grade: 'A',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '刺绣着牡丹的红缎肚兜，只遮住胸前一小片，两侧乳肉从肚兜边缘溢出，绑带系在背后的结只需轻轻一拉就能彻底解放',
+    bonuses: { 魅力加成: 15, 基础性斗力加成: 8, 闪避率加成: 5 },
+  },
+  {
+    name: '马屌假阳具',
+    slot: '副装备',
+    icon: 'fas fa-horse-head',
+    price: 666,
+    category: 'equipment',
+    grade: 'A',
+    gender: '女',
+    attrFocus: '特殊',
+    description: '以真实马屌为原型铸造的粗大假阳具，复刻了马龟头和青筋的细节，插入时的撑胀感能让任何穿戴者呢喊求饶',
+    bonuses: { 基础性斗力加成: 18, 魅力加成: 5 },
+  },
 ];
 
 // 筛选后的装备列表
@@ -2464,6 +2562,17 @@ const consumableSubCategories = [
         effect: { permanentBonus: { 基础忍耐力成算: 2 } },
         description: '永久提升2点基础忍耐力成算',
       },
+      {
+        id: 'con_p_lucky_envelope',
+        name: '幸运红包',
+        icon: 'fas fa-envelope',
+        price: 888,
+        category: 'consumable',
+        combatOnly: false,
+        effectText: '随机属性+1 或 随机金币',
+        effect: { luckyEnvelope: true },
+        description: '象征好运的红包，有概率获得随机永久属性提升+1或随机金币',
+      },
     ],
   },
   {
@@ -2625,6 +2734,44 @@ async function purchaseItem() {
           if (item.effect.pleasureIncrease) consumableData.快感增加 = item.effect.pleasureIncrease;
           // 临时buff：存入背包的加成属性，在战斗中使用时才写入临时状态
           if (item.effect.buff) consumableData.加成属性 = item.effect.buff;
+
+          // 幸运红包特殊处理：随机属性+1 或 随机金币
+          if (item.effect.luckyEnvelope) {
+            if (!mvuData.stat_data.核心状态) mvuData.stat_data.核心状态 = {};
+            if (!mvuData.stat_data.永久状态) mvuData.stat_data.永久状态 = { 状态列表: [], 加成统计: {} };
+            if (!mvuData.stat_data.永久状态.加成统计) mvuData.stat_data.永久状态.加成统计 = {};
+            const results: string[] = [];
+            for (let i = 0; i < quantity; i++) {
+              const roll = Math.random();
+              if (roll < 0.5) {
+                // 50% 概率：随机属性+1
+                const statPool = [
+                  { key: '基础性斗力成算', label: '性斗力成算', target: 'bonus' },
+                  { key: '基础忍耐力成算', label: '忍耐力成算', target: 'bonus' },
+                  { key: '$基础魅力', label: '基础魅力', target: 'core' },
+                  { key: '$基础幸运', label: '基础幸运', target: 'core' },
+                ];
+                const chosen = statPool[Math.floor(Math.random() * statPool.length)];
+                if (chosen.target === 'bonus') {
+                  mvuData.stat_data.永久状态.加成统计[chosen.key] = (mvuData.stat_data.永久状态.加成统计[chosen.key] || 0) + 1;
+                } else {
+                  mvuData.stat_data.核心状态[chosen.key] = (mvuData.stat_data.核心状态[chosen.key] || 0) + 1;
+                }
+                results.push(`${chosen.label}+1`);
+              } else {
+                // 50% 概率：随机金币 100~1000
+                const goldReward = Math.floor(Math.random() * 901) + 100;
+                mvuData.stat_data.物品系统.学园金币 = (mvuData.stat_data.物品系统.学园金币 || 0) + goldReward;
+                results.push(`金币+${goldReward}`);
+              }
+            }
+            await globalAny.Mvu.replaceMvuData(mvuData, { type: 'message', message_id: 'latest' });
+            if (typeof toastr !== 'undefined') {
+              toastr.success(`红包开启：${results.join(', ')}`, '🧧 恭喜发财');
+            }
+            selectedItem.value = null;
+            return;
+          }
 
           if (item.effect.permanent) {
             // 永久提升类：直接应用效果到核心状态
